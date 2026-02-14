@@ -250,7 +250,7 @@ publications:
   - title: "On the gate-error robustness of variational quantum algorithms"
     link: "https://doi.org/10.1103/PhysRevA.109.042426"
     authors: D. Rabinovich, <b>E. Campos</b>, S. Adhikary, E. Pankovets, D. Vinichenko, J. Biamonte
-    conference: Physical Review A <b>109.4</b> (2024): 042426
+    conference: Physical Review A <b>109.4</b> (2024), 042426
       
   - title: "Circuit depth scaling for quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.106.042438"
