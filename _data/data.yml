@@ -241,10 +241,6 @@ publications:
   papers:
 
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
     
   - title: "Depth scaling of unstructured search via quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.110.012428"
