@@ -232,17 +232,17 @@ oss:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-# publications:
-#   title: Publications
-#   intro: |
-#     You can list your publications in this section. Lorem ipsum dolor sit
-#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#     bibendum fringilla a eu lectus.
-#   papers:
-#     - title: "Depth scaling of unstructured search via quantum approximate optimization"
-#       link: "https://doi.org/10.1103/PhysRevA.110.012428"
-#       authors: <b>E. Campos</b>, D. Rabinovich, A. Uvarov
-#       conference: Physical Review A <b>110.1</b> (2024): 012428
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: "Depth scaling of unstructured search via quantum approximate optimization"
+      link: "https://doi.org/10.1103/PhysRevA.110.012428"
+      authors: <b>E. Campos</b>, D. Rabinovich, A. Uvarov
+      conference: Physical Review A <b>110.1</b> (2024): 012428
       
 #     - title: "On the gate-error robustness of variational quantum algorithms"
 #       link: "https://doi.org/10.1103/PhysRevA.109.042426"
