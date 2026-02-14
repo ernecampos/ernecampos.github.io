@@ -239,21 +239,55 @@ publications:
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
+    - title: "Depth scaling of unstructured search via quantum approximate optimization"
+      link: "https://doi.org/10.1103/PhysRevA.110.012428"
+      authors: <b>E. Campos</b>, D. Rabinovich, A. Uvarov
+      conference: Physical Review A <b>110.1</b> (2024): 012428
+      
+    - title: "On the gate-error robustness of variational quantum algorithms"
+      link: "https://doi.org/10.1103/PhysRevA.109.042426"
+      authors: D. Rabinovich, <b>E. Campos</b>, S. Adhikary, E. Pankovets, D. Vinichenko, J. Biamonte
+      conference: Physical Review A <b>109.4</b> (2024): 042426
+      
+    - title: "Circuit depth scaling for quantum approximate optimization"
+      link: "https://doi.org/10.1103/PhysRevA.106.042438"
+      authors: V. Akshay, H. Philathong, <b>E. Campos</b>, D. Rabinovich, I. Zacharov, X. Zhang, J. Biamonte
+      conference: Physical Review A <b>106</b>, 024238 (2022)
+      
+    - title: "Ion native variational ansatz for quantum approximate optimization"
+      link: "https://doi.org/10.1103/PhysRevA.106.032418"
+      authors: D. Rabinovich, S. Adhikary, <b>E. Campos</b>, V. Akshay, E. Anikin, R. Sengupta, O. Lakhmanskaya, K. Lakhmanskiy, J. Biamonte
+      conference: Physical Review A <b>106</b>, 032418 (2022)
+      
+    - title: "Progress towards analytically optimal angles in quantum approximate optimisation"
+      link: "https://doi.org/10.3390/math10152601"
+      authors: D. Rabinovich, R. Sengupta, <b>E. Campos</b>, V. Akshay, J. Biamonte
+      conference: Mathematics <b>10</b>(15), 2601 (2022)
+      
+    - title: "Training saturation in layerwise quantum approximate optimisation"
+      link: "https://doi.org/10.1103/PhysRevA.104.L030401"
+      authors: <b>E. Campos</b>, D. Rabinovich, V. Akshay, J. Biamonte
+      conference: (Letter) Physical Review A <b>104</b>, L030401 (2021)
+      
+    - title: "Quantum walks as algorithmic resources to solve hard k-SAT instances"
+      link: "https://doi.org/10.1038/s41598-021-95801-1"
+      authors: <b>E. Campos</b>, S. Venegas, M. Lanzagorta
+      conference: Scientific Reports <b>11</b>, 16845 (2021)
+      
+    - title: "Parameter concentrations in quantum approximate optimization"
+      link: "https://doi.org/10.1103/PhysRevA.104.L010401"
+      authors: V. Akshay, D. Rabinovich, <b>E. Campos</b>, J. Biamonte
+      conference: (Letter) Physical Review A <b>104</b>, L010401 (2021)
+      
+    - title: "Abrupt transitions in variational quantum circuit training"
+      link: "https://doi.org/10.1103/PhysRevA.103.032607"
+      authors: <b>E. Campos</b>, A. Nasrallah, J. Biamonte
+      conference: Physical Review A <b>103</b>, 032607 (2021)
+      
+    - title: "Heuristic ansatz design for trainable ion-native digital-analog quantum circuits"
+      link: "https://arxiv.org/abs/2505.15898"
+      authors: G. Paradezhenko, D. Rabinovich, <b>E. Campos</b>, K. Lakhmanskiy
+      conference: arXiv:2505.15898 (May 2025)
 recommendations:
   title: Recommendations
   list:
