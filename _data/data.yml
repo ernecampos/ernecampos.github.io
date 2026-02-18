@@ -47,14 +47,18 @@ sidebar:
 
 
 career-profile:
-  title: Career Profile
+  title: About
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I am an Adjunct Professor of Computer Science at the Monterrey Institute of Technology and Higher Education (ITESM). My fascination with the untapped potential of computation began during my undergraduate studies, specifically at the intersection of quantum and classical machines for learning and optimization. This initial curiosity has since evolved into a focused research career dedicated to probing the fundamental limits of these models. My work is driven by a central, overarching question: What are the fundamental trainability limits of quantum circuits as algorithmic models, and how can we overcome them to develop more effective training strategies?
+    My contributions to the field of variational quantum algorithms have yielded significant insights into these questions. Key findings include:
+    In 2024 my research proved the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA). We demonstrated that the oracle query complexity is nearly identical to Grover's algorithm, formally confirming a quantum speedup and corroborating results from researchers at NASA \cite{}.
+    In 2022 we proposed using quantum hardware-native operations as the building blocks for variational algorithms. Our work showed that hardware-native problem-tailored ansatzes outperform standard QAOA for certain families of combinatorial optimization problems. Subsequent research has demonstrated that such ansatzes also exhibit better training behavior compared to their generic counterparts.
+    In 2021 my research identified several critical phenomena that impede the trainability of quantum circuits. We discovered abrupt training transitions in the context of variational quantum compilation, demonstrating that shallow circuits' cost landscape can be full of trivial solutions, often requiring substantially greater depth to reach acceptable results. This aligned with concurrent findings that the cost landscapes of shallow circuits are, in general, riddled with local minima \cite{}.
+    That same year, we characterized training saturation, a phenomenon where circuits optimized in a layerwise fashion are unable to improve beyond a certain depth. This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches \cite{}.
+    Also in 2021, we proved the existence of parameter concentrations, demonstrating that optimal parameter values tend to cluster for different instances of the same problem. This effect, which I had observed empirically in my earlier work on quantum walks, provided a foundation for a practical insight.
+    Collectively, these findings have been foundational to what are now considered the most promising families of training strategies: warm start initialization and dynamically built ansatz circuits. Moreover, these results shed light on the greater variety of training limitations, often overshadowed by the infamous barren plateaus. The significance of this work is reflected in its integration into the broader literature on variational algorithm trainability, where it is frequently cited in multiple reviews \cite{} as a key consideration when designing training strategies for specific problems.
+    Despite this progress, the frontier of quantum machine learning still holds many open questions. A deeper, more fundamental understanding of training dynamics beyond simplified models is needed. The most pressing question remains: Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? Answering this question continues to drive my research forward.
+
 education:
   title: Education
   info:
