@@ -67,6 +67,9 @@ career-profile:
     
     Despite this progress, the frontier of quantum machine learning still holds many open questions. A deeper, more fundamental understanding of training dynamics beyond simplified models is needed. The most pressing question remains: Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? Answering this question continues to drive my research forward.
 
+    Main collaborators:
+      - Jacob Biamonte
+      - Akshay...
 education:
   title: Education
   info:
