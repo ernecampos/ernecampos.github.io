@@ -122,6 +122,12 @@
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
+    
+    {% if sidebar.scholar %}
+    <li class="scholar"><i class="fab fa-google"></i>
+    	<a href="https://{{ sidebar.scholar }}" target="_blank">Google Scholar</a>
+    </li>
+    {% endif %}
 
   </ul>
 </div><!--//contact-container-->
