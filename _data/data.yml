@@ -163,6 +163,21 @@ publications:
     authors: G. Paradezhenko, D. Rabinovich, <b>E. Campos</b>, K. Lakhmanskiy
     conference: arXiv:2505.15898 (May 2025)
 
+recommendations:
+  title: Main collaborators
+  list:
+  - person: Jacob Biamonte
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
 
+      He is a great employee!
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
