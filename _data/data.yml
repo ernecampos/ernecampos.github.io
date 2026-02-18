@@ -14,25 +14,9 @@ sidebar:
 
   # Sidebar links
   email: e.campos@tec.mx
-  # phone:
   scholar: scholar.google.com/citations?user=X0ekpucAAAAJ&hl=en
-  # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  # citizenship:
-  # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
   # linkedin: alandoe
-  # xing: alandoe
   github: ernecampos
-  # telegram: # add your nickname without '@' sign
-  # gitlab:
-  # bitbucket:
-  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  # twitter: '@jekyllrb'
-  # stack-overflow: # Number/Username, e.g. 123456/alandoe
-  # codewars:
-  # goodreads: # Number-Username, e.g. 123456-alandoe
-  # mastodon: # Please include your full Mastodon link here.
-  # hackerrank: # Please provide your HackerRank username.
-  # leetcode: # Please provide your LeetCode username.
   pdf: https://ernecampos.github.io/assets/pdfs/CV_Ernesto.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
