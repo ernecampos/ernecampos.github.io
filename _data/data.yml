@@ -70,19 +70,16 @@ collaborators:
     role: Head of QC Lab, Skoltech
     org: Skolkovo Institute of Science and Technology
     url: https://www.skoltech.ru/en/
-    avatar: /assets/img/collab/palyulin.jpg
 
   - name: Jane Doe
     role: Quantum Algorithms
     org: ÉTS Montréal
     url: https://etsmtl.ca
-    avatar: /assets/img/collab/jane.jpg
 
   - name: John Smith
     role: Error mitigation
     org: ÉTS Montréal
     url: https://etsmtl.ca
-    avatar: /assets/img/collab/john.jpg
 
       
 education:
