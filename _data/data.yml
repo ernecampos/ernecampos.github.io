@@ -49,27 +49,28 @@ sidebar:
 career-profile:
   title: About
   summary: |
-    I am an Adjunct Professor of Computer Science at the Monterrey Institute of Technology and Higher Education (ITESM). My fascination with the untapped potential of computation began during my undergraduate studies, specifically at the intersection of quantum and classical machines for learning and optimization. This initial curiosity has since evolved into a focused research career dedicated to probing the fundamental limits of these models. My work is driven by a central, overarching question: What are the fundamental trainability limits of quantum circuits as algorithmic models, and how can we overcome them to develop more effective training strategies?
-   
-    My contributions to the field of variational quantum algorithms have yielded significant insights into these questions. Key findings include:
+    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM), where I am leading the initiative to establish a new school of quantum computing in Mexico. My journey in this field has previously taken me to the École de technologie supérieure as a visiting faculty member, collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
     
-    In 2024 my research proved the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA). We demonstrated that the oracle query complexity is nearly identical to Grover's algorithm, formally confirming a quantum speedup and corroborating results from researchers at NASA \cite{}.
+    At the heart of my research lies a single, overarching question: What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies?
     
-    In 2022 we proposed using quantum hardware-native operations as the building blocks for variational algorithms. Our work showed that hardware-native problem-tailored ansatzes outperform standard QAOA for certain families of combinatorial optimization problems. Subsequent research has demonstrated that such ansatzes also exhibit better training behavior compared to their generic counterparts.
+    My contributions to the field of variational quantum algorithms have been a continuous effort to illuminate this question. In 2021, my work identified several critical phenomena that collectively reshaped our understanding of how and why training can fail. We discovered abrupt training transitions in variational quantum compilation, revealing that the cost landscapes of shallow circuits can be deceptively full of trivial solutions, often demanding a substantially greater depth to reach acceptable results—a finding that aligned with concurrent research showing that such landscapes are, in general, riddled with local minima [cite]. That same year, we characterized a phenomenon we termed "training saturation," demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth. This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches \cite{}. Furthermore, we proved the existence of parameter concentrations, showing that optimal parameter values tend to cluster for different instances of the same problem. This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
     
-    In 2021 my research identified several critical phenomena that impede the trainability of quantum circuits. We discovered abrupt training transitions in the context of variational quantum compilation, demonstrating that shallow circuits' cost landscape can be full of trivial solutions, often requiring substantially greater depth to reach acceptable results. This aligned with concurrent findings that the cost landscapes of shallow circuits are, in general, riddled with local minima \cite{}.
+    Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry. In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms. Our work showed that these hardware-native, problem-tailored ansatzes not only outperformed standard QAOA for certain combinatorial optimization problems but, crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.
     
-    That same year, we characterized training saturation, a phenomenon where circuits optimized in a layerwise fashion are unable to improve beyond a certain depth. This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches \cite{}.
+    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA), we demonstrated that its oracle query complexity is nearly identical to Grover's algorithm. This result formally confirmed a quantum speedup, corroborating findings from researchers at NASA.
     
-    Also in 2021, we proved the existence of parameter concentrations, demonstrating that optimal parameter values tend to cluster for different instances of the same problem. This effect, which I had observed empirically in my earlier work on quantum walks, provided a foundation for a practical insight.
+    Together, these findings have become foundational to what are now considered some of the most promising families of training strategies: warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus. The integration of this work into the broader literature, where it is cited in multiple reviews [cite] as a key consideration for problem-specific training design, underscores its impact.
     
-    Collectively, these findings have been foundational to what are now considered the most promising families of training strategies: warm start initialization and dynamically built ansatz circuits. Moreover, these results shed light on the greater variety of training limitations, often overshadowed by the infamous barren plateaus. The significance of this work is reflected in its integration into the broader literature on variational algorithm trainability, where it is frequently cited in multiple reviews \cite{} as a key consideration when designing training strategies for specific problems.
-    
-    Despite this progress, the frontier of quantum machine learning still holds many open questions. A deeper, more fundamental understanding of training dynamics beyond simplified models is needed. The most pressing question remains: Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? Answering this question continues to drive my research forward.
+    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? Answering this question continues to drive my research forward.
+
 
     Main collaborators:
-      - Jacob Biamonte
-      - Akshay...
+      - Jacob Biamonte (ÉTS Montreal)
+      - Salvador Venegas (ITESM)
+      - Daniil Ravinovich (Skoltech, RQC)
+      - Akshay Vishwanathan (Nanyang Technological University)
+      - Soumik Adhikary (Centre for Quantum Technologies)
+      - Alexey Uvarov (Univeristy of Toronto)
 education:
   title: Education
   info:
