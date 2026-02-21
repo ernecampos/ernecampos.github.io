@@ -1,26 +1,48 @@
-<!-- _includes/main-collaborators.html -->
-<section id="main-collaborators" class="collaborators">
-  <h2>{{ include.title | default: "Main collaborators" }}</h2>
+{% assign collaborators = site.data.data.collaborators %}
+{% assign collaborators_title = site.data.data.collaborators_title | default: "Main collaborators" %}
 
-  {% assign list = include.list | default: site.data.data.collaborators %}
-  {% if list and list.size > 0 %}
-    <ul class="collaborators-list">
-      {% for p in list %}
-        <li class="collaborator">
-          {% if p.url %}{{ p.url }}{% endif %}
-            {% if p.avatar %}
-              {{ p.avatar | relative_url }}
-            {% endif %}
-            <div class="collab-text">
-              <span class="collab-name">{{ p.name }}</span>
-              {% if p.role %}<span class="collab-role">{{ p.role }}</span>{% endif %}
-              {% if p.org %}<span class="collab-org">{{ p.org }}</span>{% endif %}
-            </div>
-          {% if p.url %}</a>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p><em>No collaborators listed yet.</em></p>
-  {% endif %}
-</section>
+{% if collaborators %}
+<section class="section collaborators-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ collaborators_title }}
+  </h2>
+
+  <!--
+    Keep markup aligned with other sections in your theme.
+    Many résumé themes use repeated .item blocks inside a section.
+    If yours uses a list, you can swap the UL/LI for .item blocks.
+  -->
+  <div class="items">
+    {% for p in collaborators %}
+      <div class="item">
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="name">
+              {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{% endif %}
+                {{ p.name }}
+              {% if p.url %}</a>{% endif %}
+            </h3>
+          </div><!--//upper-row-->
+          <div class="subheading">
+            {% if p.role %}{{ p.role }}{% endif %}
+            {% if p.role and p.org %} &middot; {% endif %}
+            {% if p.org %}{{ p.org }}{% endif %}
+          </div>
+        </div><!--//meta-->
+
+        {% if p.avatar %}
+          <div class="details">
+            <img src="{{ p.avatar | relative_url }}" alt="{{ p.name }}" class="avatar">
+          </div><!--//details-->
+        {% endif %}
+      </div><!--//item-->
+    {% endfor %}
+  </div><!--//items-->
+
+</section><!--//section-->
+{% endif %}
