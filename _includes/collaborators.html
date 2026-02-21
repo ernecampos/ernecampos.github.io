@@ -12,35 +12,43 @@
     {{ collaborators_title }}
   </h2>
 
-  <div class="items">
-    {% for p in collaborators %}
-      <div class="item">
-        <div class="meta">
-          <div class="upper-row">
-            {%- if p.url -%}
-              <a class="name" href="{{ p.url }}" target="_blank" rel="noopener">
-                {{ p.name }}
-              </a>
-            {%- else -%}
-              <span class="name">{{ p.name }}</span>
-            {%- endif -%}
-          </div><!--//upper-row-->
+  {% comment %}
+    Optional intro text support (mirrors publications.intro pattern).
+    If you add `collaborators_intro:` to _data/data.yml, it will render here.
+  {% endcomment %}
+  {% if site.data.data.collaborators_intro %}
+  <div class="intro">
+    {{ site.data.data.collaborators_intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
-          <div class="subheading">
-            {%- if p.role -%}{{ p.role }}{%- endif -%}
-            {%- if p.role and p.org -%} &middot; {%- endif -%}
-            {%- if p.org -%}{{ p.org }}{%- endif -%}
-          </div>
-        </div><!--//meta-->
+  {% for p in collaborators %}
+  <div class="item">
+    {% if p.url %}
+      <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    {% else %}
+      <li>{{ p.name }}</li>
+    {% endif %}
 
-        {%- if p.avatar -%}
-          <div class="details">
-            <img class="avatar" src="{{ p.avatar | relative_url }}" alt="{{ p.name }} avatar">
-          </div><!--//details-->
-        {%- endif -%}
-      </div><!--//item-->
-    {% endfor %}
-  </div><!--//items-->
+    {% comment %}
+      Keep these class names parallel to publications:
+      - publication-authors  -> collaborator-role
+      - publication-conference -> collaborator-org
+      This preserves your theme’s spacing/typography behavior inside .item blocks.
+    {% endcomment %}
+    <div class="collaborator-role">
+      {% if p.role %}{{ p.role }}{% endif %}
+      {% if p.role and p.org %} &middot; {% endif %}
+      {% if p.org %}{{ p.org }}{% endif %}
+    </div>
+
+    {% if p.avatar %}
+      <div class="collaborator-avatar">
+        <img src="{{ p.avatar | relative_url }}" alt="{{ p.name }} avatar" class="avatar">
+      </div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
 
 </section><!--//section-->
 {% endif %}
