@@ -12,34 +12,32 @@
     {{ collaborators_title }}
   </h2>
 
-  <!--
-    Keep markup aligned with other sections in your theme.
-    Many résumé themes use repeated .item blocks inside a section.
-    If yours uses a list, you can swap the UL/LI for .item blocks.
-  -->
   <div class="items">
     {% for p in collaborators %}
       <div class="item">
         <div class="meta">
           <div class="upper-row">
-            <span class="name">
-              {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{% endif %}
+            {%- if p.url -%}
+              <a class="name" href="{{ p.url }}" target="_blank" rel="noopener">
                 {{ p.name }}
-              {% if p.url %}</a>{% endif %}
-            </span>
+              </a>
+            {%- else -%}
+              <span class="name">{{ p.name }}</span>
+            {%- endif -%}
           </div><!--//upper-row-->
+
           <div class="subheading">
-            {% if p.role %}{{ p.role }}{% endif %}
-            {% if p.role and p.org %} &middot; {% endif %}
-            {% if p.org %}{{ p.org }}{% endif %}
+            {%- if p.role -%}{{ p.role }}{%- endif -%}
+            {%- if p.role and p.org -%} &middot; {%- endif -%}
+            {%- if p.org -%}{{ p.org }}{%- endif -%}
           </div>
         </div><!--//meta-->
 
-        {% if p.avatar %}
+        {%- if p.avatar -%}
           <div class="details">
-            <img src="{{ p.avatar | relative_url }}" alt="{{ p.name }}" class="avatar">
+            <img class="avatar" src="{{ p.avatar | relative_url }}" alt="{{ p.name }} avatar">
           </div><!--//details-->
-        {% endif %}
+        {%- endif -%}
       </div><!--//item-->
     {% endfor %}
   </div><!--//items-->
