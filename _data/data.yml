@@ -61,7 +61,8 @@ career-profile:
     
     Together, these findings have become foundational to what are now considered some of the most promising families of training strategies: warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus. The integration of this work into the broader literature, where it is cited in multiple reviews [cite] as a key consideration for problem-specific training design, underscores its impact.
     
-    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? <b> Answering this question continues to drive my research forward.
+    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? <b>
+    Answering this question continues to drive my research forward.
 
 collaborators:
   title: Main collaborators
