@@ -51,7 +51,7 @@ career-profile:
   summary: |
     I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM), where I am leading the initiative to establish a new school of quantum computing in Mexico. My journey in this field has previously taken me to the École de technologie supérieure as a visiting faculty member, collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
     
-    At the heart of my research lies a single, overarching question: What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies?
+    At the heart of my research lies a single, overarching question: <b> What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies? <b>
     
     My contributions to the field of variational quantum algorithms have been a continuous effort to illuminate this question. In 2021, my work identified several critical phenomena that collectively reshaped our understanding of how and why training can fail. We discovered abrupt training transitions in variational quantum compilation, revealing that the cost landscapes of shallow circuits can be deceptively full of trivial solutions, often demanding a substantially greater depth to reach acceptable results—a finding that aligned with concurrent research showing that such landscapes are, in general, riddled with local minima [cite]. That same year, we characterized a phenomenon we termed "training saturation," demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth. This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches \cite{}. Furthermore, we proved the existence of parameter concentrations, showing that optimal parameter values tend to cluster for different instances of the same problem. This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
     
@@ -63,14 +63,15 @@ career-profile:
     
     Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? Answering this question continues to drive my research forward.
 
-
-    Main collaborators:
+experiences:
+  title: Main collaborators
       - Jacob Biamonte (ÉTS Montreal)
       - Salvador Venegas (ITESM)
       - Daniil Ravinovich (Skoltech, RQC)
       - Akshay Vishwanathan (Nanyang Technological University)
       - Soumik Adhikary (Centre for Quantum Technologies)
       - Alexey Uvarov (Univeristy of Toronto)
+      
 education:
   title: Education
   info:
