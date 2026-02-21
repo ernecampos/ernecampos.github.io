@@ -1,0 +1,26 @@
+<!-- _includes/main-collaborators.html -->
+<section id="main-collaborators" class="collaborators">
+  <h2>{{ include.title | default: "Main collaborators" }}</h2>
+
+  {% assign list = include.list | default: site.data.data.collaborators %}
+  {% if list and list.size > 0 %}
+    <ul class="collaborators-list">
+      {% for p in list %}
+        <li class="collaborator">
+          {% if p.url %}{{ p.url }}{% endif %}
+            {% if p.avatar %}
+              {{ p.avatar | relative_url }}
+            {% endif %}
+            <div class="collab-text">
+              <span class="collab-name">{{ p.name }}</span>
+              {% if p.role %}<span class="collab-role">{{ p.role }}</span>{% endif %}
+              {% if p.org %}<span class="collab-org">{{ p.org }}</span>{% endif %}
+            </div>
+          {% if p.url %}</a>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p><em>No collaborators listed yet.</em></p>
+  {% endif %}
+</section>
