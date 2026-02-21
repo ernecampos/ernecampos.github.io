@@ -22,9 +22,11 @@
 
     <div class="main-wrapper">
       {{ content }}
+      
+      {% include main-collaborators.html title="Main collaborators" %}
     </div>
 
-    {% include main-collaborators.html title="Main collaborators" %}
+
   </div>
 
   {% include footer.html %}
