@@ -64,15 +64,26 @@ career-profile:
     Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? <b>
     Answering this question continues to drive my research forward.
 
+
 collaborators:
-  title: Main collaborators
-  summary: |
-      - Jacob Biamonte (ÉTS Montreal)
-      - Salvador Venegas (ITESM)
-      - Daniil Ravinovich (Skoltech, RQC)
-      - Akshay Vishwanathan (Nanyang Technological University)
-      - Soumik Adhikary (Centre for Quantum Technologies)
-      - Alexey Uvarov (Univeristy of Toronto)
+  - name: Vladimir Palyulin
+    role: Head of QC Lab, Skoltech
+    org: Skolkovo Institute of Science and Technology
+    url: https://www.skoltech.ru/en/
+    avatar: /assets/img/collab/palyulin.jpg
+
+  - name: Jane Doe
+    role: Quantum Algorithms
+    org: ÉTS Montréal
+    url: https://etsmtl.ca
+    avatar: /assets/img/collab/jane.jpg
+
+  - name: John Smith
+    role: Error mitigation
+    org: ÉTS Montréal
+    url: https://etsmtl.ca
+    avatar: /assets/img/collab/john.jpg
+
       
 education:
   title: Education
