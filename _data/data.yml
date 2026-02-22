@@ -49,7 +49,7 @@ sidebar:
 career-profile:
   title: About
   summary: |
-    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM), where I am leading the initiative to establish a new school of quantum computing in Mexico. My journey in this field has previously taken me to the École de technologie supérieure as a visiting faculty member, collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
+    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM), where I am leading the initiative to establish a new school of quantum computing in Mexico. My journey in this field has previously taken me to the École de Technologie Supérieure in Montréal as a visiting faculty member, collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
     
     At the heart of my research lies a single, overarching question: <b> What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies? <b>
     
@@ -66,20 +66,20 @@ career-profile:
 
 
 collaborators:
-  - name: Vladimir Palyulin
-    role: Head of QC Lab, Skoltech
-    org: Skolkovo Institute of Science and Technology
-    url: https://www.skoltech.ru/en/
-
-  - name: Jane Doe
-    role: Quantum Algorithms
+  - name: Jacob Biamonte
+    role: Head of the Quantum Computing Lab
     org: ÉTS Montréal
-    url: https://etsmtl.ca
+    url: https://scholar.google.com/citations?user=6dSqkUMAAAAJ&hl=en
 
-  - name: John Smith
-    role: Error mitigation
-    org: ÉTS Montréal
-    url: https://etsmtl.ca
+  - name: Daniil Rabinovich
+    role: Research Scientist
+    org: Skoltech, RQC
+    url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
+
+  - name: Akshay Vishwanathan
+    role: Postdoctoral Fellow
+    org: Nanyang Technological University
+    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
 
       
 education:
