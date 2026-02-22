@@ -63,8 +63,8 @@ career-profile:
     showing that such landscapes are, in general, riddled with local minima.<a href="https://www.nature.com/articles/s41467-022-35364-5" target="_blank"><sup>2 </sup> </a>
     That same year, we characterized a phenomenon we termed training saturation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"><sup>3 </sup> </a>
     demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth.
-    This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches.<sup><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">4, </a> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">5, </a><a href="https://link.aps.org/doi/10.1103/zmmm-ymdq" target="_blank">6 </a> </sup> 
-    Furthermore, we proved the existence of parameter concentrations, showing that optimal parameter values tend to cluster for different instances of the same problem.
+    This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in their approaches.<sup><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">4, </a> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">5, </a><a href="https://link.aps.org/doi/10.1103/zmmm-ymdq" target="_blank">6 </a> </sup> 
+    Furthermore, we proved the existence of parameter concentrations,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>7 </sup> </a> showing that optimal parameter values tend to cluster for different instances of the same problem.
     This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
     
     Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry.
