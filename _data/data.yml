@@ -90,10 +90,10 @@ collaborators:
     org: ÉTS Montréal
     url: https://scholar.google.com/citations?user=6dSqkUMAAAAJ&hl=en
 
-  - name: Daniil Rabinovich
-    role: Research Scientist
-    org: Skoltech, RQC
-    url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
+  # - name: Daniil Rabinovich
+  #   role: Research Scientist
+  #   org: Skoltech, RQC
+  #   url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
 
   - name: Akshay Vishwanathan
     role: Postdoctoral Fellow
