@@ -81,12 +81,25 @@ collaborators:
     org: Nanyang Technological University
     url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
 
-      
+  - name: Akshay Vishwanathan
+    role: Postdoctoral Fellow
+    org: Nanyang Technological University
+    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+    
+  - name: Akshay Vishwanathan
+    role: Postdoctoral Fellow
+    org: Nanyang Technological University
+    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+
+  - name: Akshay Vishwanathan
+    role: Postdoctoral Fellow
+    org: Nanyang Technological University
+    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
 education:
   title: Education
   info:
   - degree: PhD in Computer Science
-    university: Skol;kovo Institute of Science and Technology
+    university: Skolkovo Institute of Science and Technology
     time: 2020 - 2024
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
