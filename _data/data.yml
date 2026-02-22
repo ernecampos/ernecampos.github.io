@@ -137,6 +137,11 @@ education:
 publications:
   title: Publications
   papers:
+
+  - title: "Heuristic ansatz design for trainable ion-native digital-analog quantum circuits"
+    link: "https://arxiv.org/abs/2505.15898"
+    authors: G. Paradezhenko, D. Rabinovich, <b>E. Campos</b>, K. Lakhmanskiy
+    conference: arXiv:2505.15898 (May 2025)
     
   - title: "Depth scaling of unstructured search via quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.110.012428"
@@ -183,10 +188,7 @@ publications:
     authors: <b>E. Campos</b>, A. Nasrallah, J. Biamonte
     conference: Physical Review A <b>103</b>, 032607 (2021)
       
-  - title: "Heuristic ansatz design for trainable ion-native digital-analog quantum circuits"
-    link: "https://arxiv.org/abs/2505.15898"
-    authors: G. Paradezhenko, D. Rabinovich, <b>E. Campos</b>, K. Lakhmanskiy
-    conference: arXiv:2505.15898 (May 2025)
+
 
 
 footer: >
