@@ -49,7 +49,10 @@ sidebar:
 career-profile:
   title: About
   summary: |
-    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM), where I am leading the initiative to establish a new school of quantum computing in Mexico. My journey in this field has previously taken me to the École de Technologie Supérieure in Montréal as a visiting faculty member, collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
+    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM),
+    where I am leading the initiative to establish a new school of quantum computing in Mexico.
+    My journey in this field has previously taken me to the École de Technologie Supérieure in Montréal as a visiting faculty member,
+    collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
     
     At the heart of my research lies a single, overarching question: <b> What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies? </b>
     
@@ -57,16 +60,29 @@ career-profile:
     In 2021, my work identified several critical phenomena that collectively reshaped our understanding of how and why training can fail. 
     We discovered abrupt training transitions in variational quantum compilation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032607" target="_blank"><sup>1 </sup> </a>
     revealing that the minima of cost landscapes of shallow circuits can be full of trivial solutions, often demanding a substantially greater depth to reach acceptable results—a finding that aligned with others future research,
-    showing that such landscapes are, in general, riddled with local minima. <a href="https://www.nature.com/articles/s41467-022-35364-5" target="_blank"> <sup> 2 </sup> </a>
-    That same year, we characterized a phenomenon we termed training saturation <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"> <sup> 3 </sup> </a>, demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth. This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches \cite{}. Furthermore, we proved the existence of parameter concentrations, showing that optimal parameter values tend to cluster for different instances of the same problem. This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
+    showing that such landscapes are, in general, riddled with local minima.<a href="https://www.nature.com/articles/s41467-022-35364-5" target="_blank"><sup>2 </sup> </a>
+    That same year, we characterized a phenomenon we termed training saturation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"><sup>3 </sup> </a>
+    demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth.
+    This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in layerwise-inspired approaches.<sup><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">4, </a> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">5, </a><a href="https://link.aps.org/doi/10.1103/zmmm-ymdq" target="_blank">6 </a> </sup> 
+    Furthermore, we proved the existence of parameter concentrations, showing that optimal parameter values tend to cluster for different instances of the same problem.
+    This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
     
-    Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry. In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms. Our work showed that these hardware-native, problem-tailored ansatzes not only outperformed standard QAOA for certain combinatorial optimization problems but, crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.
+    Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry.
+    In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms.
+    Our work showed that these hardware-native, problem-tailored ansatzes not only outperformed standard QAOA for certain combinatorial optimization problems but,
+    crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.
     
-    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA), we demonstrated that its oracle query complexity is nearly identical to Grover's algorithm. This result formally confirmed a quantum speedup, corroborating findings from researchers at NASA.
+    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA),
+    we demonstrated that its oracle query complexity is nearly identical to Grover's algorithm. This result formally confirmed a quantum speedup,
+    corroborating findings from researchers at NASA.
     
-    Together, these findings have become foundational to what are now considered some of the most promising families of training strategies: warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus. The integration of this work into the broader literature, where it is cited in multiple reviews [cite] as a key consideration for problem-specific training design, underscores its impact.
+    Together, these findings have become foundational to what are now considered some of the most promising families of training strategies:
+    warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus.
+    The integration of this work into the broader literature, where it is cited in multiple reviews [cite] as a key consideration for problem-specific training design, underscores its impact.
     
-    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models. The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? </b> Answering this question continues to drive my research forward.
+    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models.
+    The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? </b>
+    Answering this question continues to drive my research forward.
 
 
 collaborators:
