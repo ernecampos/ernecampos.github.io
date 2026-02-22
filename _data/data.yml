@@ -65,20 +65,19 @@ career-profile:
     demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth.
     This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in their approaches.<sup><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">4, </a> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">5, </a><a href="https://link.aps.org/doi/10.1103/zmmm-ymdq" target="_blank">6 </a> </sup> 
     Furthermore, we proved the existence of parameter concentrations,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>7 </sup> </a> showing that optimal parameter values tend to cluster for different instances of the same problem.
-    This effect, which I had observed empirically in my earlier work on quantum walks, provided a crucial, practical clue for what was to come.
     
     Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry.
-    In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms.
+    In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms.<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.032418" target="_blank"><sup>8 </sup> </a>
     Our work showed that these hardware-native, problem-tailored ansatzes not only outperformed standard QAOA for certain combinatorial optimization problems but,
-    crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.
+    crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.<a href="https://arxiv.org/abs/2505.15898" target="_blank"><sup>9 </sup> </a>
     
-    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm (QAOA),
+    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012428" target="_blank"><sup>10 </sup> </a>
     we demonstrated that its oracle query complexity is nearly identical to Grover's algorithm. This result formally confirmed a quantum speedup,
-    corroborating findings from researchers at NASA.
+    corroborating findings from researchers at NASA.<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.95.062317" target="_blank"><sup>7 </sup> </a>
     
     Together, these findings have become foundational to what are now considered some of the most promising families of training strategies:
     warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus.
-    The integration of this work into the broader literature, where it is cited in multiple reviews [cite] as a key consideration for problem-specific training design, underscores its impact.
+    The integration of this work into the broader literature, where it is cited in multiple reviews<sup><a href="https://www.nature.com/articles/s42254-025-00813-9" target="_blank">11, </a> <a href="https://www.nature.com/articles/s42254-021-00348-9" target="_blank">12, </a><a href="https://www.sciencedirect.com/science/article/pii/S0370157322003118" target="_blank">13 </a> </sup>  as a key consideration for problem-specific training design, underscores its impact.
     
     Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models.
     The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical machine learning for certain relevant problems? </b>
