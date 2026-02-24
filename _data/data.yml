@@ -57,16 +57,18 @@ career-profile:
     become trapped in trivial minima and require substantially greater depth to reach meaningful solutions.
     We also introduced the notion of training saturation, demonstrating that layerwise-optimized circuits 
     hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter 
-    concentration effects, showing that optimal parameters cluster across problem instances. These results
-    helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of 
+    concentration effects, showing that optimal parameters cluster across problem instances. 
+    
+    These results helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of 
     structural training limits. In response, we proposed hardware-native, problem-tailored ansatz 
     constructions. These models not only improved performance on combinatorial optimization problems, but 
     also exhibited markedly better training behavior than generic circuit templates. More recently, we 
     proved that QAOA achieves the same depth scaling as Grover search for unstructured problems, formally 
-    establishing a quantum speedup in that setting. Together, this line of work has helped shape modern 
-    strategies such as warm-start initialization and dynamically constructed ansatz circuits. The central 
-    challenge now is sharper: to identify trainable quantum models that cannot be efficiently dequantized, 
-    and that deliver a provable advantage on meaningful problems.
+    establishing a quantum speedup in that setting.
+    
+    Together, this line of work has helped shape modern strategies such as warm-start initialization and 
+    dynamically constructed ansatz circuits. The central challenge now is sharper: to identify trainable 
+    quantum models that cannot be efficiently dequantized, and that deliver a provable advantage on meaningful problems.
 
 
 collaborators:
