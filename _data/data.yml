@@ -54,7 +54,7 @@ career-profile:
     I study topics on the intersection of quantum and classical machine learning like: variational quantum algorithms, 
     quantum approximate optimization, analog-digital algorithms, quantum walks, and tensor networks. 
     
-    My work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? 
+    Much of my work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? 
     In 2021, we identified several mechanisms that explain failure modes in shallow circuits. 
     We showed that cost landscapes can undergo abrupt training transitions, where shallow models 
     become trapped in trivial minima and require substantially greater depth to reach meaningful solutions.
