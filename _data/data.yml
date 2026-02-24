@@ -54,34 +54,7 @@ career-profile:
     My journey in this field has previously taken me to the École de Technologie Supérieure in Montréal as a visiting faculty member,
     collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
     
-    At the heart of my research lies a single, overarching question: <b> What are the fundamental trainability limits of quantum algorithmic models, and how can we overcome them to develop more effective training strategies? </b>
-    
-    My contributions to the field of variational quantum algorithms have been a continuous effort to illuminate this question. 
-    In 2021, my work identified several critical phenomena that collectively reshaped our understanding of how and why training can fail. 
-    We discovered abrupt training transitions in variational quantum compilation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032607" target="_blank"><sup>1 </sup> </a>
-    revealing that the minima of cost landscapes of shallow circuits can be full of trivial solutions, often demanding a substantially greater depth to reach acceptable results—a finding that aligned with others future research,
-    showing that such landscapes are, in general, riddled with local minima.<a href="https://www.nature.com/articles/s41467-022-35364-5" target="_blank"><sup>2 </sup> </a>
-    That same year, we characterized a phenomenon we termed training saturation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"><sup>3 </sup> </a>
-    demonstrating that circuits optimized in a layerwise fashion hit a fundamental ceiling, unable to improve beyond a certain depth.
-    This insight has directly informed the development of subsequent training strategies, enabling researchers to avoid this pitfall in their approaches.<sup><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">4, </a> <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052406" target="_blank">5, </a><a href="https://link.aps.org/doi/10.1103/zmmm-ymdq" target="_blank">6 </a> </sup> 
-    Furthermore, we proved the existence of parameter concentrations,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>7 </sup> </a> showing that optimal parameter values tend to cluster for different instances of the same problem.
-    
-    Collectively, these insights were not just a catalog of obstacles; they laid the groundwork for a more constructive line of inquiry.
-    In 2022, we proposed a direct response to these challenges by advocating for the use of quantum hardware-native operations as the building blocks for variational algorithms.<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.032418" target="_blank"><sup>8 </sup> </a>
-    Our work showed that these hardware-native, problem-tailored ansatzes not only outperformed standard QAOA for certain combinatorial optimization problems but,
-    crucially, subsequent research has confirmed they also exhibit significantly better training behavior than their generic counterparts.<a href="https://arxiv.org/abs/2505.15898" target="_blank"><sup>9 </sup> </a>
-    
-    Most recently, in 2024, by proving the depth scaling of unstructured search via the Quantum Approximate Optimization Algorithm,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012428" target="_blank"><sup>10 </sup> </a>
-    we demonstrated that its oracle query complexity is nearly identical to Grover's algorithm. This result formally confirmed a quantum speedup,
-    corroborating findings from researchers at NASA.<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.95.062317" target="_blank"><sup>11 </sup> </a>
-    
-    Together, these findings have become foundational to what are now considered some of the most promising families of training strategies:
-    warm start initialization and dynamically built ansatz circuits. More importantly, they have shed light on a greater variety of training limitations—phenomena often overshadowed by the infamous barren plateaus.
-    The integration of this work into the broader literature, where it is cited in multiple reviews<sup><a href="https://www.nature.com/articles/s42254-025-00813-9" target="_blank">12, </a> <a href="https://www.nature.com/articles/s42254-021-00348-9" target="_blank">13, </a><a href="https://www.sciencedirect.com/science/article/pii/S0370157322003118" target="_blank">14 </a> </sup>  as a key consideration for problem-specific training design, underscores its impact.
-    
-    Despite this progress, the frontier of quantum machine learning still holds many open questions. We need a deeper, more fundamental understanding of training dynamics that moves beyond simplified models.
-    The most pressing question remains: <b> Are there trainable, non-dequantizable quantum models that can offer a demonstrable advantage over classical methods for relevant problems? </b>
-    Answering this question continues to drive my research forward.
+    My work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? In 2021, we identified several mechanisms that explain failure modes in shallow circuits. We showed that cost landscapes can undergo abrupt training transitions, where shallow models become trapped in trivial minima and require substantially greater depth to reach meaningful solutions. We also introduced the notion of training saturation, demonstrating that layerwise-optimized circuits hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter concentration effects, showing that optimal parameters cluster across problem instances. These results helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of structural training limits. In response, we proposed hardware-native, problem-tailored ansatz constructions. These models not only improved performance on combinatorial optimization problems, but also exhibited markedly better training behavior than generic circuit templates. More recently, we proved that QAOA achieves the same depth scaling as Grover search for unstructured problems, formally establishing a quantum speedup in that setting. Together, this line of work has helped shape modern strategies such as warm-start initialization and dynamically constructed ansatz circuits. The central challenge now is sharper: to identify trainable quantum models that cannot be efficiently dequantized, and that deliver a provable advantage on meaningful problems.
 
 
 collaborators:
