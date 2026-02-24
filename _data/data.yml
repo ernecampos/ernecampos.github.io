@@ -49,12 +49,24 @@ sidebar:
 career-profile:
   title: Welcome to my research page!
   summary: |
-    I am a researcher in quantum computing and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM),
-    where I am leading the initiative to establish a new school of quantum computing in Mexico.
-    My journey in this field has previously taken me to the École de Technologie Supérieure in Montréal as a visiting faculty member,
-    collaborating with Professor Jacob Biamonte’s group, and to the Skolkovo Institute of Science and Technology (Skoltech) in Moscow—an institute co-founded by MIT—where I served as a research scientist.
+    I am a researcher and an adjunct professor of computer science at the Monterrey Institute of Technology and Higher Education (ITESM).
     
-    My work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? In 2021, we identified several mechanisms that explain failure modes in shallow circuits. We showed that cost landscapes can undergo abrupt training transitions, where shallow models become trapped in trivial minima and require substantially greater depth to reach meaningful solutions. We also introduced the notion of training saturation, demonstrating that layerwise-optimized circuits hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter concentration effects, showing that optimal parameters cluster across problem instances. These results helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of structural training limits. In response, we proposed hardware-native, problem-tailored ansatz constructions. These models not only improved performance on combinatorial optimization problems, but also exhibited markedly better training behavior than generic circuit templates. More recently, we proved that QAOA achieves the same depth scaling as Grover search for unstructured problems, formally establishing a quantum speedup in that setting. Together, this line of work has helped shape modern strategies such as warm-start initialization and dynamically constructed ansatz circuits. The central challenge now is sharper: to identify trainable quantum models that cannot be efficiently dequantized, and that deliver a provable advantage on meaningful problems.
+    My work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? 
+    In 2021, we identified several mechanisms that explain failure modes in shallow circuits. 
+    We showed that cost landscapes can undergo abrupt training transitions, where shallow models 
+    become trapped in trivial minima and require substantially greater depth to reach meaningful solutions.
+    We also introduced the notion of training saturation, demonstrating that layerwise-optimized circuits 
+    hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter 
+    concentration effects, showing that optimal parameters cluster across problem instances. These results
+    helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of 
+    structural training limits. In response, we proposed hardware-native, problem-tailored ansatz 
+    constructions. These models not only improved performance on combinatorial optimization problems, but 
+    also exhibited markedly better training behavior than generic circuit templates. More recently, we 
+    proved that QAOA achieves the same depth scaling as Grover search for unstructured problems, formally 
+    establishing a quantum speedup in that setting. Together, this line of work has helped shape modern 
+    strategies such as warm-start initialization and dynamically constructed ansatz circuits. The central 
+    challenge now is sharper: to identify trainable quantum models that cannot be efficiently dequantized, 
+    and that deliver a provable advantage on meaningful problems.
 
 
 collaborators:
