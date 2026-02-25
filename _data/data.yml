@@ -53,8 +53,6 @@ career-profile:
     
     I study the intersection of quantum and classical machine learning, with research interests including variational quantum algorithms,
     quantum approximate optimization, analog-digital algorithms, quantum walks, and tensor networks.
-    My current work explores cost landscape engineering to improve variational algorithm trainability, 
-    and ensemble quantum algorithms that combine multiple models to solve complex problems within the scale constraints of near-term devices.
     
     Much of my work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? 
     In 2021, we identified several mechanisms that explain failure modes in shallow circuits. 
