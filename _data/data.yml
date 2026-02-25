@@ -82,37 +82,25 @@ collaboration:
     and ensemble quantum algorithms that combine multiple models to solve complex problems within the scale 
     constraints of near-term devices.
     
-  
-# collaborators:
-#   - name: Jacob Biamonte
-#     role: Head of the Quantum Computing Lab
-#     org: ÉTS Montréal
-#     url: https://scholar.google.com/citations?user=6dSqkUMAAAAJ&hl=en
-
-#   # - name: Daniil Rabinovich
-#   #   role: Research Scientist
-#   #   org: Skoltech, RQC
-#   #   url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
-
-#   - name: Akshay Vishwanathan
-#     role: Postdoctoral Fellow
-#     org: Nanyang Technological University
-#     url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
-
-#   - name: Soumik Adhikary
-#     role: Postdoctoral Fellow
-#     org: Centre for Quantum Technologies
-#     url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+teaching:
+  title: My courses at ITESM
+  summary: |
+    I enjoy teaching students from all kinds of backgrounds—whether in physics, computer science, or beyond.
+    My goal is to make challenging topics in quantum computing and computer science feel approachable and exciting by connecting 
+    theory with hands-on practice. 
     
-#   - name: Alexey Uvarov
-#     role: Postdoctoral Fellow
-#     org: University of Toronto
-#     url: https://scholar.google.com/citations?user=6PWMBEsAAAAJ&hl=en
+  courses:
 
-#   - name: Salvador E. Venegas-Andraca
-#     role: Professor
-#     org: ITESM
-#     url: https://scholar.google.com/citations?user=rQ2szRwAAAAJ&hl=en
+    - title: "Software Architecture and Design"
+      period: "March - April 2026"
+      
+    - title: "Introduction to Quantum Computing"
+      period: "August - Novemeber 2025"
+    
+
+    
+
+
     
 education:
   title: Education
