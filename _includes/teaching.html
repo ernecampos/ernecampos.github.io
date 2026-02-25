@@ -1,0 +1,47 @@
+{% assign teaching = site.data.data.teaching %}
+{% if teaching %}
+<section class="section teaching-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ teaching.title }}
+  </h2>
+
+  {% if teaching.summary %}
+  <div class="summary">
+    {{ teaching.summary | markdownify }}
+  </div><!--//summary-->
+  {% endif %}
+
+  {% if teaching.courses %}
+  <div class="courses-container">
+    <ol class="courses-list">
+      {% for course in teaching.courses %}
+      <li class="course-item">
+        <div class="course-title">
+          {% if course.link %}
+            <a href="{{ course.link }}">{{ course.title }}</a>
+          {% else %}
+            {{ course.title }}
+          {% endif %}
+        </div>
+        {% if course.institution %}
+        <div class="course-institution">{{ course.institution }}</div>
+        {% endif %}
+        {% if course.period %}
+        <div class="course-period">{{ course.period }}</div>
+        {% endif %}
+        {% if course.description %}
+        <div class="course-description">{{ course.description | markdownify }}</div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div><!--//courses-container-->
+  {% endif %}
+
+</section><!--//section-->
+{% endif %}
