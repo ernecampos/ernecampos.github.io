@@ -74,14 +74,13 @@ career-profile:
     quantum models that cannot be efficiently dequantized, and that deliver a provable advantage on meaningful problems.
 
 collaboration:
-  title: "Collaborations"
+  title: Do you want to work with me?
   summary: |
-    We are currently working on cost landscape engineering to improve variational algorithm trainability, 
+    Contact me to attend our weekly meetings! We are currently working on cost landscape engineering to improve variational algorithm trainability, 
     and ensemble quantum algorithms that combine multiple models to solve complex problems within the scale 
     constraints of near-term devices.
     
-    Contact me to attend our weekly meetings, and discuss collaboration!
-
+  
 # collaborators:
 #   - name: Jacob Biamonte
 #     role: Head of the Quantum Computing Lab
