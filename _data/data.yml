@@ -73,37 +73,45 @@ career-profile:
     dynamically constructed ansatz circuits. The central challenge now is sharper: to identify trainable 
     quantum models that cannot be efficiently dequantized, and that deliver a provable advantage on meaningful problems.
 
-
-collaborators:
-  - name: Jacob Biamonte
-    role: Head of the Quantum Computing Lab
-    org: ÉTS Montréal
-    url: https://scholar.google.com/citations?user=6dSqkUMAAAAJ&hl=en
-
-  # - name: Daniil Rabinovich
-  #   role: Research Scientist
-  #   org: Skoltech, RQC
-  #   url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
-
-  - name: Akshay Vishwanathan
-    role: Postdoctoral Fellow
-    org: Nanyang Technological University
-    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
-
-  - name: Soumik Adhikary
-    role: Postdoctoral Fellow
-    org: Centre for Quantum Technologies
-    url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+collaboration:
+  title: "Collaborations"
+  summary: |
+    We are currently working on cost landscape engineering to improve variational algorithm trainability, 
+    and ensemble quantum algorithms that combine multiple models to solve complex problems within the scale 
+    constraints of near-term devices.
     
-  - name: Alexey Uvarov
-    role: Postdoctoral Fellow
-    org: University of Toronto
-    url: https://scholar.google.com/citations?user=6PWMBEsAAAAJ&hl=en
+    Contact me to attend our weekly meetings, and discuss collaboration!
 
-  - name: Salvador E. Venegas-Andraca
-    role: Professor
-    org: ITESM
-    url: https://scholar.google.com/citations?user=rQ2szRwAAAAJ&hl=en
+# collaborators:
+#   - name: Jacob Biamonte
+#     role: Head of the Quantum Computing Lab
+#     org: ÉTS Montréal
+#     url: https://scholar.google.com/citations?user=6dSqkUMAAAAJ&hl=en
+
+#   # - name: Daniil Rabinovich
+#   #   role: Research Scientist
+#   #   org: Skoltech, RQC
+#   #   url: https://scholar.google.com/citations?user=KKwmUB4AAAAJ&hl=en
+
+#   - name: Akshay Vishwanathan
+#     role: Postdoctoral Fellow
+#     org: Nanyang Technological University
+#     url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+
+#   - name: Soumik Adhikary
+#     role: Postdoctoral Fellow
+#     org: Centre for Quantum Technologies
+#     url: https://scholar.google.com/citations?user=NIi3bEUAAAAJ&hl=en
+    
+#   - name: Alexey Uvarov
+#     role: Postdoctoral Fellow
+#     org: University of Toronto
+#     url: https://scholar.google.com/citations?user=6PWMBEsAAAAJ&hl=en
+
+#   - name: Salvador E. Venegas-Andraca
+#     role: Professor
+#     org: ITESM
+#     url: https://scholar.google.com/citations?user=rQ2szRwAAAAJ&hl=en
     
 education:
   title: Education
