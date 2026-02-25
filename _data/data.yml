@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Ernesto Campos
-  tagline: Adjunct professor at Monterrey Institute of Technology
+  tagline: Adjunct professor at the Monterrey Institute of Technology
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -51,7 +51,7 @@ sidebar:
 career-profile:
   title: Welcome to my research page!
   summary: |
-    I am Ernesto Campos, a researcher and adjunct professor of computer science at Monterrey Institute of Technology (ITESM).
+    I am Ernesto Campos, a researcher and adjunct professor of computer science at the Monterrey Institute of Technology (ITESM).
     
     I study the intersection of quantum and classical machine learning, with research interests including variational quantum algorithms,
     quantum approximate optimization, analog-digital algorithms, quantum walks, and tensor networks.
