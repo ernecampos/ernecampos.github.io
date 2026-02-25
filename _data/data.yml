@@ -12,10 +12,12 @@ sidebar:
   tagline: Adjunct professor at the Monterrey Institute of Technology
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  
+
+  # Contact info
   address: Av. Heroico Colegio Militar 4700, 31300, Chihuahua, Mexico
   email: e.campos@tec.mx
+
+  # Sidebar links
   scholar: scholar.google.com/citations?user=X0ekpucAAAAJ&hl=en
   linkedin: ernecampos
   github: ernecampos
