@@ -60,17 +60,22 @@ career-profile:
     
     Much of my work on variational quantum algorithms has focused on a simple question: when, and why, does training succeed? 
     In 2021, we identified several mechanisms that explain failure modes in shallow circuits. 
-    We showed that cost landscapes can undergo abrupt training transitions, where shallow models 
+    We showed that cost landscapes can undergo abrupt training transitions,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.103.032607" target="_blank"><sup>1 </sup> </a>
+    where shallow models 
     become trapped in trivial minima and require substantially greater depth to reach meaningful solutions.
-    We also introduced the notion of training saturation, demonstrating that layerwise-optimized circuits 
+    We also introduced the notion of training saturation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"><sup>2 </sup> </a> 
+    demonstrating that layerwise-optimized circuits 
     hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter 
-    concentration effects, showing that optimal parameters cluster across problem instances. 
+    concentration effects,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>3 </sup> </a>  
+    showing that optimal parameters cluster across problem instances. 
     
     These results helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of 
     structural training limits. In response, we proposed hardware-native, problem-tailored ansatz 
-    constructions. These models not only improved performance on combinatorial optimization problems, but 
+    constructions.<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.032418" target="_blank"><sup>4 </sup> </a>
+    These models not only improved performance on combinatorial optimization problems, but 
     also exhibited markedly better training behavior than generic circuit templates. More recently, we 
-    proved that QAOA achieves the same depth scaling as Grover search for unstructured problems, formally 
+    proved that QAOA achieves the same depth scaling as Grover search for unstructured problems,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012428" target="_blank"><sup>5 </sup> </a>
+    formally 
     establishing a quantum speedup in that setting.
     
     Together, this line of work has helped shape modern strategies such as warm-start initialization and 
