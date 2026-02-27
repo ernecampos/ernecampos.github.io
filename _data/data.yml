@@ -66,8 +66,7 @@ career-profile:
     We also introduced the notion of training saturation,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L030401" target="_blank"><sup>2 </sup> </a> 
     demonstrating that layerwise-optimized circuits 
     hit a structural ceiling beyond which performance cannot improve. In parallel, we proved parameter 
-    concentration effects,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>3 </sup> </a>  
-    showing that optimal parameters cluster across problem instances. 
+    concentration effects,<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.L010401" target="_blank"><sup>3 </sup> </a> showing that optimal parameters cluster across problem instances. 
     
     These results helped shift attention away from barren plateaus as the only obstacle, toward a broader landscape of 
     structural training limits. In response, we proposed hardware-native, problem-tailored ansatz 
