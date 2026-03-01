@@ -149,14 +149,14 @@ education:
 
 
 publications:
-  title: Publications
+  title: Selected publications
   papers:
 
  
     
   - title: "Depth scaling of unstructured search via quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.110.012428"
-    authors: <b>E. Campos</b>, D. Rabinovich, A. Uvarov
+    authors: E. Campos, D. Rabinovich, A. Uvarov
     conference: Physical Review A <b>110.1</b> (2024), 012428
       
 
@@ -165,25 +165,25 @@ publications:
       
   - title: "Ion native variational ansatz for quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.106.032418"
-    authors: D. Rabinovich, S. Adhikary, <b>E. Campos</b>, V. Akshay, E. Anikin, R. Sengupta, O. Lakhmanskaya, K. Lakhmanskiy, J. Biamonte
+    authors: D. Rabinovich, S. Adhikary, E. Campos, V. Akshay, E. Anikin, R. Sengupta, O. Lakhmanskaya, K. Lakhmanskiy, J. Biamonte
     conference: Physical Review A <b>106</b>, 032418 (2022)
       
  
       
   - title: "Training saturation in layerwise quantum approximate optimisation"
     link: "https://doi.org/10.1103/PhysRevA.104.L030401"
-    authors: <b>E. Campos</b>, D. Rabinovich, V. Akshay, J. Biamonte
+    authors: E. Campos, D. Rabinovich, V. Akshay, J. Biamonte
     conference: (Letter) Physical Review A <b>104</b>, L030401 (2021)
       
  
   - title: "Parameter concentrations in quantum approximate optimization"
     link: "https://doi.org/10.1103/PhysRevA.104.L010401"
-    authors: V. Akshay, D. Rabinovich, <b>E. Campos</b>, J. Biamonte
+    authors: V. Akshay, D. Rabinovich, E. Campos, J. Biamonte
     conference: (Letter) Physical Review A <b>104</b>, L010401 (2021)
       
   - title: "Abrupt transitions in variational quantum circuit training"
     link: "https://doi.org/10.1103/PhysRevA.103.032607"
-    authors: <b>E. Campos</b>, A. Nasrallah, J. Biamonte
+    authors: E. Campos, A. Nasrallah, J. Biamonte
     conference: Physical Review A <b>103</b>, 032607 (2021)
       
 
